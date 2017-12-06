@@ -1,5 +1,5 @@
 body{
-	background-color:#e8eff9;
+	background-color:#ddeaff;
 }
 img{
 
@@ -11,7 +11,13 @@ img{
 	top:-60px;
 	left:205px;
 }
-
-
-
+#info{
+	text-align: center;
+}
+h1{
+	text-align:center;
+}
+#Signup{
+	text-align:center;
+}
 
