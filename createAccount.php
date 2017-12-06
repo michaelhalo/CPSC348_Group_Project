@@ -3,7 +3,9 @@
 <head>
 <link href="gp.css" rel="stylesheet"/>
 </head>
-<form action="results.php" method="post">
+<div class="banner">
+<img class="banner" src="banner.png" style="width:100%; height:50px;">
+</div>
 <label for ="classNum">Select your number of classes:</label><br>
 <select>
 <option value="3">3</option><br/>
