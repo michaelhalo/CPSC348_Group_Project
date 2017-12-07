@@ -1,7 +1,11 @@
 <html>
 <script>
 function checkAnswer(event){
-	var answered = true;
+	var classNum = document.getElementById("classNum");
+	var selectedValue = classNum.options[classNum.selectedIndex].value;
+	if(selectedValue == "3"){
+		alert("THIS WORKS");
+	}
 	if((document.getElementById('className1').value)==""){
 		alert("Not answered");
 	}
@@ -26,8 +30,8 @@ document.getElementById('theform').addEventListener('submit',checkAnswer);
 <div id="banner2">
 <a href="profile.php"><font color="white">Home</a><u>&nbsp &nbsp Friends &nbsp &nbsp Free Time</font></u>
 </div>
-<label for ="classNum">Select your number of classes:</label><br>
-<select>
+Select your number of classes:<br>
+<select id="classNum" name="num">
 <option value="3">3</option><br/>
 <option value="4">4</option>
 <option value="5">5</option>
