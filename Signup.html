@@ -17,14 +17,14 @@ and open the template in the editor.
             <input type="submit" value="HOME" name="home" />
         </form>
         <h1>Sign up for an account</h1>
-        <form>
+        <form action="http://cs.umw.edu:51952/groupProject/CPSC348_Group_Project/createAccount.php" method="post">
             <div id ="info">
-                Enter Username: <input type="text" name="NewUser" value="" size="20" /> </br></br>
-                Enter First Name: <input type="text" name="NewFirst" value="" size="20" /> </br></br>
-                Enter Last Name: <input type="text" name="NewLast" value="" size="20" /> </br></br>
-                Enter Password: <input type="password" name="NewPassword" value="" size="20" /> </br></br>
-           <button><a href="http://cs.umw.edu:51952/groupProject/CPSC348_Group_Project/createAccount.php">Submit</a></button> 
-	    <!--	<input type="submit" value="Submit" name="SignupSubmit" />-->
+                Enter Username: <input type="text" name="NewUser" value="" size="30" required/> </br></br>
+                Enter First Name: <input type="text" name="NewFirst" value="" size="30" required/> </br></br>
+                Enter Last Name: <input type="text" name="NewLast" value="" size="30" required/> </br></br>
+                Enter Password: <input type="password" name="NewPassword" value="" size="30" required/> </br></br>
+           <!--<button><a href="http://cs.umw.edu:51952/groupProject/CPSC348_Group_Project/createAccount.php">Submit</a></button> -->
+	    	    <input type="submit" value="Submit" name="SignupSubmit" />
             </div>
         </form>
     </body>
