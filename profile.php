@@ -8,7 +8,8 @@
 <br>
 <img src="http://profile.actionsprout.com/default.jpeg" style="width:150px; height:150px;">
 <div id="banner">
-<a href="profile.php"><font color="white">Home</a><u>&nbsp &nbsp Friends &nbsp &nbsp Free Time
+<br>
+<a href="profile.php"><font color="white">Home</a><u>&nbsp &nbsp Friends &nbsp &nbsp Free Time</font></u>
 </div>
 <p id="name"> User McUser</p>
 </head>
