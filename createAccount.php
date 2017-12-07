@@ -8,17 +8,30 @@ function checkAnswer(event){
 		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")){
 			alert("Not all class names are entered");
 		}
+		else if(((document.getElementById('className4').value)!="")||((document.getElementById('className5').value)!="")||((document.getElementById('className6').value)!="")){
+			alert("Correct number of classes was not selected");
+		}
+
 	}
 	else if(selectedValue == "4"){
 		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")||((document.getElementById('className4').value)=="")){
 			alert("Not all class names are entered");
 		}
+		else if(((document.getElementById('className5').value)!="")||((document.getElementById('className6').value)!="")){
+			alert("Correct number of classes was not selected");
+		}
+
 	}
 	else if(selectedValue == "5"){
 		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")||((document.getElementById('className4').value)=="")||((document.getElementById('className5').value)=="")){
 			alert("Not all class names are entered");
 		}
+		else if(((document.getElementById('className6').value)!="")){
+			alert("Correct number of classes was not selected");
+		}
+
 	}
+
 	else if(selectedValue == "6"){
 		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")||((document.getElementById('className4').value)=="")||((document.getElementById('className5').value)=="")||((document.getElementById('className6').value)=="")){
 			alert("Not all class names are entered");
