@@ -1,20 +1,32 @@
 <html>
+
 <script>
 function checkAnswer(event){
 	var classNum = document.getElementById("classNum");
 	var selectedValue = classNum.options[classNum.selectedIndex].value;
 	if(selectedValue == "3"){
-		alert("THIS WORKS");
+		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")){
+			alert("Not all class names are entered");
+		}
 	}
-	if((document.getElementById('className1').value)==""){
-		alert("Not answered");
+	else if(selectedValue == "4"){
+		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")||((document.getElementById('className4').value)=="")){
+			alert("Not all class names are entered");
+		}
 	}
-	else{
-		alert("shit it didn't work");
+	else if(selectedValue == "5"){
+		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")||((document.getElementById('className4').value)=="")||((document.getElementById('className5').value)=="")){
+			alert("Not all class names are entered");
+		}
+	}
+	else if(selectedValue == "6"){
+		if(((document.getElementById('className1').value)=="")||((document.getElementById('className2').value)=="")||((document.getElementById('className3').value)=="")||((document.getElementById('className4').value)=="")||((document.getElementById('className5').value)=="")||((document.getElementById('className6').value)=="")){
+			alert("Not all class names are entered");
+		}
 	}
 }
 function onbodyload(){
-document.getElementById('theform').addEventListener('submit',checkAnswer);
+	document.getElementById('theform').addEventListener('submit',checkAnswer);
 }
 </script>
 <body id ="profile">
@@ -64,13 +76,13 @@ Enter Class Time:<br>
 <option value="30">30</option><br/>
 <option value="45">45</option><br/>
 </select>
- <select>
+<select>
 <option value="am">am</option><br/>
 <option value="pm">pm</option><br/>
 </select>
 <br><br>
 Enter Class Name:<br>
-<input type ="text" name="className" id="className2" value="Class Name"><br>
+<input type ="text" name="className" id="className2" value=""><br>
 Enter Class Time:<br>
 <select>
 <option value="1">1</option>
@@ -93,13 +105,13 @@ Enter Class Time:<br>
 <option value="30">30</option><br/>
 <option value="45">45</option><br/>
 </select>
- <select>
+<select>
 <option value="am">am</option><br/>
 <option value="pm">pm</option><br/>
 </select>
 <br><br>
 Enter Class Name:<br>
-<input type ="text" name="className" id="className3" value="Class Name"><br>
+<input type ="text" name="className" id="className3" value=""><br>
 Enter Class Time:<br>
 <select>
 <option value="1">1</option>
@@ -122,13 +134,13 @@ Enter Class Time:<br>
 <option value="30">30</option><br/>
 <option value="45">45</option><br/>
 </select>
- <select>
+<select>
 <option value="am">am</option><br/>
 <option value="pm">pm</option><br/>
 </select>
 <br> <br>
 Enter Class Name:<br>
-<input type ="text" name="className" id="className4" value="Class Name"><br>
+<input type ="text" name="className" id="className4" value=""><br>
 Enter Class Time:<br>
 <select>
 <option value="1">1</option>
@@ -151,14 +163,14 @@ Enter Class Time:<br>
 <option value="30">30</option><br/>
 <option value="45">45</option><br/>
 </select>
- <select>
+<select>
 <option value="am">am</option><br/>
 <option value="pm">pm</option><br/>
 </select>
 <br>
 <br>
 Enter Class Name:<br>
-<input type ="text" name="className" id="className5" value="Class Name"><br>
+<input type ="text" name="className" id="className5" value=""><br>
 Enter Class Time:<br>
 <select>
 <option value="1">1</option>
@@ -181,14 +193,14 @@ Enter Class Time:<br>
 <option value="30">30</option><br/>
 <option value="45">45</option><br/>
 </select>
- <select>
+<select>
 <option value="am">am</option><br/>
 <option value="pm">pm</option><br/>
 </select>
 <br>
 <br>
 Enter Class Name:<br>
-<input type ="text" name="className" id="className6" value="Class Name"><br>
+<input type ="text" name="className" id="className6" value=""><br>
 Enter Class Time:<br>
 <select>
 <option value="1">1</option>
@@ -211,7 +223,7 @@ Enter Class Time:<br>
 <option value="30">30</option><br/>
 <option value="45">45</option><br/>
 </select>
- <select>
+<select>
 <option value="am">am</option><br/>
 <option value="pm">pm</option><br/>
 </select>
