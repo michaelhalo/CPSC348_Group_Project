@@ -1,6 +1,13 @@
 body{
 	background-color:#2b5caf;
 }
+#profile{
+	background-color:white;
+	border: 15px solid darkblue;
+	padding: 20px;
+	margin:0px;
+	overflow-x:hidden;
+}
 img{
 
 	border-radius: 8px;

@@ -1,5 +1,5 @@
 <html>
-<body>
+<body id="profile">
 <head>
 <link href="gp.css" rel="stylesheet"/>
 <div class="banner">
