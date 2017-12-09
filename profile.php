@@ -9,7 +9,7 @@
 <img src="http://profile.actionsprout.com/default.jpeg" style="width:150px; height:150px;">
 <div id="banner">
 <br>
-<a href="profile.php"><font color="white">Home</a><u>&nbsp &nbsp Friends &nbsp &nbsp Free Time</font></u>
+<a href="profile.php"><font color="white">Home</a><u>&nbsp &nbsp Friends &nbsp &nbsp Free Time &nbsp &nbsp <a href="index.html">Log Out</a></font></u>
 </div>
 <p id="name"> User McUser</p>
 </head>
