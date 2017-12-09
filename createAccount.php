@@ -1,28 +1,5 @@
 <html>
 
-<?php
-// create user
-require_once('./mysql_connect.php');
-$username = $_POST["NewUser"];
-$firstname = $_POST["NewFirst"];
-$lastname = $_POST["NewLast"];
-$password = $_POST["NewPassword"];
-/*
-$adduser = "INSERT INTO users (username, firstname, lastname, password) VALUES ('$username', '$firstname', $lastname', '$password')";
-
-if ($mysqli->query($adduser)) {
-	echo "user added " . $mysqli->insert_id . "</br>";
-} else {
-	die("Error ($mysqli->errno) $mysqli->error<br>SQL = $adduser\n");
-}
-*/
-
-echo "test";
-echo $firstname;
-echo $lastname;
-echo $password;
-
-?>
 <script>
 function checkAnswer(event){
 	var classNum = document.getElementById("classNum");
