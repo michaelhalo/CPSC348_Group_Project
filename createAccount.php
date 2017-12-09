@@ -1,5 +1,28 @@
 <html>
 
+<?php
+// create user
+require_once('./mysql_connect.php');
+$username = $_POST["NewUser"];
+$firstname = $_POST["NewFirst"];
+$lastname = $_POST["NewLast"];
+$password = $_POST["NewPassword"];
+/*
+$adduser = "INSERT INTO users (username, firstname, lastname, password) VALUES ('$username', '$firstname', $lastname', '$password')";
+
+if ($mysqli->query($adduser)) {
+	echo "user added " . $mysqli->insert_id . "</br>";
+} else {
+	die("Error ($mysqli->errno) $mysqli->error<br>SQL = $adduser\n");
+}
+*/
+
+echo "test";
+echo $firstname;
+echo $lastname;
+echo $password;
+
+?>
 <script>
 function checkAnswer(event){
 	var classNum = document.getElementById("classNum");
@@ -47,7 +70,6 @@ function onbodyload(){
 <link href="gp.css" rel="stylesheet"/>
 <form action="cs.umw.edu:51952/groupProject/CPSC348_Group_Project/profile.php" method="post" id="theform">
 <body onload="onbodyload()">
-
 
 <div class="banner">
 <img class="banner" src="banner.png" style="width:100%; height:50px;">
