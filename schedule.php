@@ -4,7 +4,7 @@ require_once('./mysql_connect.php');
 /* Handle posted data */
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
-	$query = "INSERT INTO classes (class1, class2, class3,
+	$query = "INSERT INTO schedule (, class2, class3,
 		class4, class5, class6) VALUES (?, ?, ?, ?, ?, ?)";
 	$stmt = $dbc->prepare($query);
 	if (!$stmt) {

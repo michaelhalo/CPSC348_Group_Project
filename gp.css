@@ -38,6 +38,7 @@ h1{
 #banner{
 	position:relative;
 	top:-255px;
+	left:20px;
 	font-size:30px;
 	text-align:center;
 	font-weight:bold;
@@ -45,6 +46,7 @@ h1{
 #banner2{
 	position:relative;
 	top:-50px;
+	left:20px;
 	font-size:30px;
 	text-align:center;
 	font-weight:bold;
